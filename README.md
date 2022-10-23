@@ -8,15 +8,27 @@ To develop an LSTM-based model for recognizing the named entities in the text.
 
 ## Neural Network Model
 
-Include the neural network model diagram.
+DESIGN STEPS
+STEP 1:
+Download and load the dataset to colab. After that mount the drive in your colab workspace to access the dataset.
 
-## DESIGN STEPS
+STEP 2:
+flow the data directly from the dataset directory to the model
 
-### STEP 1:
+STEP 3:
+Split the data into train and test.
 
-### STEP 2:
+STEP 4:
+Build the Bidriectional LSTM model
 
-### STEP 3:
+STEP 5:
+Train the model with training data
+
+STEP 6:
+Evaluate the model with testing data
+
+STEP 7:
+Plot the graph of train and test models
 
 Write your own steps
 
@@ -160,9 +172,10 @@ for w, true, pred in zip(X_test[i], y_true, p[0]):
 
 ### Training Loss, Validation Loss Vs Iteration Plot
 
-Include your plot here
-
+![graph1](https://user-images.githubusercontent.com/94525786/197398599-d1871bfb-bf30-4097-b4e3-e26d942584ec.png)
+![raph2](https://user-images.githubusercontent.com/94525786/197398610-f8cc21b0-6745-4163-aa4a-1278dedd0f1f.png)
 ### Sample Text Prediction
-Include your sample text prediction here.
+![output](https://user-images.githubusercontent.com/94525786/197398668-a5e7ab79-0480-41a0-824a-1f179c3f2871.png)
+
 
 ## RESULT
