@@ -4,33 +4,38 @@
 
 To develop an LSTM-based model for recognizing the named entities in the text.
 
-## Problem Statement and Dataset
+## Problem Statement :
+Named-entity recognition (NER) (also known as entity identification, entity chunking and entity extraction) is a subtask of information extraction that seeks to locate and classify named entities mentioned in unstructured text into pre-defined categories such as person names, organisations, locations, medical codes, time expressions, quantities, monetary values, percentages, etc.  It adds a wealth of semantic knowledge to your content and helps you to promptly understand the subject of any given text.
+## Dataset
 
 ## Neural Network Model
 
 DESIGN STEPS
-STEP 1:
-Download and load the dataset to colab. After that mount the drive in your colab workspace to access the dataset.
+### STEP 1:
+Download and load the dataset to colab.
 
-STEP 2:
-flow the data directly from the dataset directory to the model
+### STEP 2:
+ we would use aa Class which would convert every sentence with its named entities (tags) into a list of tuples [(word, named entity), 
 
-STEP 3:
+### STEP 3:
+ create word-to-index and index-to-word mapping which is necessary for conversions for words before training.
+
+### STEP 4:
 Split the data into train and test.
 
-STEP 4:
-Build the Bidriectional LSTM model
+### STEP 5:
+Designing our Bidriectional LSTM  neural network model
 
-STEP 5:
+### STEP 6:
 Train the model with training data
 
-STEP 6:
-Evaluate the model with testing data
+### STEP 7:
+Evaluate the model with mertics
 
-STEP 7:
-Plot the graph of train and test models
+### STEP 8:
+Plot the graph of accuracy and Loss.
 
-Write your own steps
+
 
 ## PROGRAM
 
